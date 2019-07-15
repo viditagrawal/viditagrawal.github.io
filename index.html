@@ -38,10 +38,14 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
           </li>
-          
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Images</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
           </li>
+
+
         </ul>
       </div>
     </div>
@@ -77,10 +81,13 @@
           </div>
    
              <div class="row">
-                  <div style = "height: 200px;" class="col-sm-6 col-md-6 col-xs- ">
+                  <div style = "height: 200px;" class="col-sm-6 col-md-6 col-xs-">
+
                       <figure class="thumbnail">
                          
-                          <img style = "height: 500px; width: 400px;" src="img/img-team-7.jpg" class="img-responsive" alt="Image">
+                         <div class = "zoom">
+                          <img style = "height: 500px; width: 400px;" src="img/img-team-7.jpg" class="img-responsive " alt="Image">
+                          </div>
 
                           <figcaption class="caption text-center">
 
@@ -96,9 +103,9 @@
 
                    <div class = "col-sm-6 col-md-6">
                       <figure class="thumbnail">
-
+                        <div class = "zoom">
                           <img style = "height: 500px; width: 400px;" src="img/img-team-2.jpg" class="img-responsive" alt="Image">
-
+                          </div>
                           <figcaption class="caption text-center">
 
                               <h3 >Sid Kumar
@@ -119,7 +126,156 @@
   </section>
 
   <!-- Projects Section -->
+<section id="projects" class="projects-section bg-light">
+    <div class="container">
 
+      <!-- Featured Project Row -->
+
+
+
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+        <div class = "zoom"  onclick= "hide();openLightbox();toSlide(1);">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/session 1/group.png" alt="">
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Session 1 Pictures!</h4>
+            <p class="text-black-50 mb-0">We had a lot of fun teaching and working with the kids for Session 1 and we hope to come back to teach more about the exciting aspects of debating! 
+
+
+
+                Click on the picture to the left to scroll through all the images.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="Lightbox" class="modal">
+  
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="img/session 1/IMG_0524.jpeg" class="image-slide" alt="Toy car on the road." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_0525.jpeg" class="image-slide" alt="Toy car exploring offroad." />
+      </div>    
+      <div class="slide">
+        <img src="img/session 1/IMG_3996.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_3999.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4001.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4002.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4003.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4004.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4005.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4008.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4009.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4012.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4013.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+      <div class="slide">
+        <img src="img/session 1/IMG_4016.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+       <div class="slide">
+        <img src="img/session 1/48176544871_53657833fb_k.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+       <div class="slide">
+        <img src="img/session 1/48176547946_034a6e2618_k.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+       <div class="slide">
+        <img src="img/session 1/48176622092_35f7a26c2a_k.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+       <div class="slide">
+        <img src="img/session 1/48176624897_b99c27c325_k.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+       <div class="slide">
+        <img src="img/session 1/48176625972_0aa1b079ff_k.JPG" class="image-slide" alt="Toy car in the city." />
+      </div>
+
+    
+      <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          
+
+    </div> 
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlide(slideIndex);
+
+    function hide()
+    {
+      document.getElementById('mainNav').style.display = 'none';
+    };
+
+
+    function openLightbox() {
+      document.getElementById('Lightbox').style.display = 'block';
+    };
+    
+    function closeLightbox() {
+      document.getElementById('Lightbox').style.display = 'none';
+    };
+    
+    function changeSlide(n) {
+      showSlide(slideIndex += n);
+    };
+    
+    function toSlide(n) {
+      showSlide(slideIndex = n);
+    };
+    
+    function showSlide(n) {
+      const slides = document.getElementsByClassName('slide');
+      let modalPreviews = document.getElementsByClassName('modal-preview');
+    
+      if (n > slides.length) {
+        slideIndex = 1; 
+      };
+      
+      if (n < 1) {
+        slideIndex = slides.length;
+      };
+    
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      };
+      
+      for (let i = 0; i < modalPreviews.length; i++) {
+        modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+      };
+      
+      slides[slideIndex - 1].style.display = 'block';
+      modalPreviews[slideIndex - 1].className += ' active';
+    };
+  </script>
+      
+
+      <!-- Project Two Row -->
+      
+    </div>
+  </section>
 
   <!-- Signup Section -->
   <section id="signup" class="signup-section">
@@ -144,6 +300,11 @@
       </div>
     </div>
   </section>
+  
+
+
+
+
 
   
   <!-- Contact Section -->
