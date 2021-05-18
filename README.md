@@ -1,4 +1,4 @@
-#Website for learn2debate.org
+# Website for learn2debate.org
 A website for debate for beginners: A fun, educational 5-day program at the West Valley library.
 
 ##How was it built?
